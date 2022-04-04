@@ -37,6 +37,54 @@ public class Crime {
 
     public Crime() { }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public LocalDateTime getData_hora() {
+        return data_hora;
+    }
+
+    public void setData_hora(LocalDateTime data_hora) {
+        this.data_hora = data_hora;
+    }
+
+    public String getLocal() {
+        return local;
+    }
+
+    public void setLocal(String local) {
+        this.local = local;
+    }
+
+    public List<Vitima> getVitimas() {
+        return vitimas;
+    }
+
+    public void setVitimas(List<Vitima> vitimas) {
+        this.vitimas = vitimas;
+    }
+
+    public List<Criminoso> getCriminosos() {
+        return criminosos;
+    }
+
+    public void setCriminosos(List<Criminoso> criminosos) {
+        this.criminosos = criminosos;
+    }
+
     public Crime(String tipo, LocalDateTime data_hora, String local, List<Vitima> vitimas, List<Criminoso> criminosos) {
         this.tipo = tipo;
         this.data_hora = data_hora;

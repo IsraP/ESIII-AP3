@@ -37,4 +37,36 @@ public class Arma {
         this.tipo = tipo;
         this.crime = crime;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public Crime getCrime() {
+        return crime;
+    }
+
+    public void setCrime(Crime crime) {
+        this.crime = crime;
+    }
 }

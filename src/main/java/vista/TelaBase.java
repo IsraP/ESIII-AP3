@@ -1,23 +1,18 @@
 package vista;
 
-import controle.AppDAO;
-import controle.ContatoCT;
-import modelo.Contato;
-
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
-import java.util.List;
 
-public class TelaBase<T> extends JFrame{
-    private JPanel contentPane;
-    private JComboBox cbPesquisar;
+public class TelaBase extends JFrame{
+    public JPanel contentPane;
+    public JComboBox cbPesquisar;
 
-    private JButton btnSalvar;
-    private JButton btnExcluir;
-    private JButton btnEditar;
-    private JButton btnPesquisar;
-    private JButton btnLimpar;
+    public JButton btnSalvar;
+    public JButton btnExcluir;
+    public JButton btnEditar;
+    public JButton btnPesquisar;
+    public JButton btnLimpar;
 
     public TelaBase() {
         contentPane = new JPanel();
